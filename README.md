@@ -1,4 +1,4 @@
-# Flappy Bird (My First Game!)
+# Spacy Bird (My First Game!)
 
 Welcome! This is my very first game project, made in Unity as a way to learn game development and C#. It's not polished or super good looking, but I had a lot of fun making it and learned a lot along the way.
 
