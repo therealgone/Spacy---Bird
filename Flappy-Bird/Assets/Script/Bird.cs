@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Bird : MonoBehaviour
 {
@@ -6,6 +7,7 @@ public class Bird : MonoBehaviour
     public float flapforce;
     public Game_Logic logic;
     public bool birdIsAlive = true;
+
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -20,12 +22,11 @@ public class Bird : MonoBehaviour
         {
             rb.linearVelocity = Vector2.up * flapforce;
         }
-        if (Input.GetKeyDown(KeyCode.Escape) == true)
-        {
-            Application.Quit();
-        }
+        
 
         Screen();
+        mainmenu();
+        quit();
     }
 
     private void Screen()
@@ -36,6 +37,24 @@ public class Bird : MonoBehaviour
             birdIsAlive = false;
         }
     }
+
+    public void mainmenu()
+    {
+      if (Input.GetKeyDown(KeyCode.S) == true)
+        {
+            SceneManager.LoadScene("Start");
+        }
+    
+    }
+
+    public void quit()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape) == true)
+        {
+            Application.Quit();
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         logic.gameOver();
