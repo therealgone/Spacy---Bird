@@ -3,12 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|c:\\users\\jeeva\\onedrive\\documents\\development\\game\\flappy-bird\\flappy-bird\\assets\\script\\pipemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\assets\\script\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|c:\\users\\jeeva\\onedrive\\documents\\development\\game\\flappy-bird\\flappy-bird\\assets\\script\\pipemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pipemiddle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\assets\\script\\pipemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pipemove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|c:\\users\\jeeva\\onedrive\\documents\\development\\game\\flappy-bird\\flappy-bird\\assets\\script\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bird.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\assets\\script\\pipespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\pipespawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|c:\\users\\jeeva\\onedrive\\documents\\development\\game\\flappy-bird\\flappy-bird\\assets\\script\\game_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2968D2C5-7A9A-5768-B3BA-385462FD457C}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\game_logic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,37 +30,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "PipeMiddle.cs",
+              "DocumentMoniker": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeMiddle.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PipeMiddle.cs",
+              "ToolTip": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeMiddle.cs",
+              "RelativeToolTip": "Assets\\Script\\PipeMiddle.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:31:39.516Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Game_Logic.cs",
+              "DocumentMoniker": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\Game_Logic.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Game_Logic.cs",
+              "ToolTip": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\Game_Logic.cs",
+              "RelativeToolTip": "Assets\\Script\\Game_Logic.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-18T16:22:23.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PipeSpawn.cs",
+              "DocumentMoniker": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeSpawn.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\PipeSpawn.cs",
+              "ToolTip": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeSpawn.cs",
+              "RelativeToolTip": "Assets\\Script\\PipeSpawn.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T19:21:57.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PipeMove.cs",
               "DocumentMoniker": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeMove.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\PipeMove.cs",
               "ToolTip": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\PipeMove.cs",
               "RelativeToolTip": "Assets\\Script\\PipeMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T19:15:36.041Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Bird.cs",
               "DocumentMoniker": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\Bird.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Bird.cs",
               "ToolTip": "C:\\Users\\jeeva\\OneDrive\\Documents\\Development\\Game\\Flappy-Bird\\Flappy-Bird\\Assets\\Script\\Bird.cs",
               "RelativeToolTip": "Assets\\Script\\Bird.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCAAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-17T18:52:30.489Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

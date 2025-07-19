@@ -3,9 +3,10 @@ using UnityEngine.Rendering;
 
 public class PipeSpawn : MonoBehaviour
 {
-    public GameObject pipe;
-    public float spawnRate = 2;
+    public GameObject Pipes;
+    public float spawnRate = 1;
     private float timer = 0;
+    public float spawnHeight = 5;
     void Start()
     {
         spawnPipe();
@@ -26,7 +27,11 @@ public class PipeSpawn : MonoBehaviour
         
     }
     void spawnPipe()
+
     {
-        Instantiate(pipe, transform.position, transform.rotation);
+        
+        float lowestPoint = transform.position.y - spawnHeight;
+        float highestPoint = transform.position.y + spawnHeight;
+        Instantiate(Pipes, new Vector3(transform.position.x,Random.Range(lowestPoint, highestPoint),0), transform.rotation);
     }
 }
